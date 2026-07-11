@@ -1,0 +1,54 @@
+version: 2
+
+sources:
+- name: HPO_V2
+  description: "HPO V2 Project"
+  database: HPOV2_DB
+  schema: RAW
+  tables:
+  - name: RAW_DIM_HOTELS
+    columns:
+    - name: property_id
+      description: "The primary key for this table"
+      data_tests:
+      - unique
+      - not_null
+
+  - name: RAW_DIM_ROOMS
+    columns:
+    - name: room_id
+      description: "The primary key for this table"
+      data_tests:
+      - unique
+      - not_null
+
+  - name: RAW_DIM_DATE
+    columns:
+    - name: date
+      description: "The primary key for this table"
+      data_tests:
+      - unique
+      - not_null
+  - name: RAW_DIM_CUSTOMERS
+    columns:
+    - name: customer_id
+      description: "The primary key for this table"
+      data_tests:
+      - unique
+      - not_null
+  - name: RAW_FACT_AGGREGATED_BOOKINGS
+    data_tests:
+    - dbt_utils.unique_combination_of_columns:
+        arguments:
+          combination_of_columns:
+          - property_id
+          - room_id
+          - check_in_date  
+
+  - name: RAW_FACT_BOOKINGS
+    columns:
+    - name: booking_id
+      description: "The primary key for this table"
+      data_tests:
+      - unique
+      - not_null

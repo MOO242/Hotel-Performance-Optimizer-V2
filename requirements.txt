@@ -1,0 +1,15 @@
+Pandas
+Numpy
+matplotlib
+seaborn
+scikit-learn
+dbt
+sqlalchemy 
+logging
+streamlit
+FASTAPI
+Docker
+dbt-core 
+dbt-snowflake
+
+
