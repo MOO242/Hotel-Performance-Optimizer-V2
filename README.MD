@@ -160,3 +160,68 @@ The Hotel Performance Optimization V2 (HPO V2) Commercial Analytics Framework is
 - How can forecasting models be improved?
 - How can recommendation accuracy be increased?
 - What new business questions should be investigated?
+
+
+Data Sources
+    ↓
+Snowflake
+    ↓
+dbt Models
+    ↓
+Business Questions
+    ↓
+SQL Analysis
+    ↓
+EDA
+    ↓
+Diagnostic Analysis
+    ↓
+Insights
+    ↓
+Recommendations
+    ↓
+Power BI Dashboard
+    ↓
+Executive Presentation
+``
+
+
+Business Question workflow
+
+↓
+
+SQL Analysis
+
+↓
+
+Result
+
+↓
+
+Business Insight
+
+↓
+
+Recommendation
+
+↓
+
+Business Impact
+
+WORKFLOW: 
+
+Snowflake SQL
+     ↓
+Answer all business questions
+     ↓
+Create KPI findings
+     ↓
+Python EDA WHY?
+     ↓
+Find drivers and root causes
+     ↓
+Insights
+     ↓
+Recommendations
+     ↓
+Power BI

@@ -1,6 +1,6 @@
 WITH source AS (
     select * 
-    FROM {{source('HPO_V2', 'RAW_DIM_CUSTOMERS')}}
+    FROM {{source('HPO_V2', 'DIM_CUSTOMERS')}}
 )
 
 SELECT *

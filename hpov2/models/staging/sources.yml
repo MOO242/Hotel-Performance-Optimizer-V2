@@ -6,7 +6,7 @@ sources:
   database: HPOV2_DB
   schema: RAW
   tables:
-  - name: RAW_DIM_HOTELS
+  - name: DIM_HOTELS
     columns:
     - name: property_id
       description: "The primary key for this table"
@@ -14,7 +14,7 @@ sources:
       - unique
       - not_null
 
-  - name: RAW_DIM_ROOMS
+  - name: DIM_ROOMS
     columns:
     - name: room_id
       description: "The primary key for this table"
@@ -22,30 +22,28 @@ sources:
       - unique
       - not_null
 
-  - name: RAW_DIM_DATE
+  - name: DIM_DATE
     columns:
     - name: date
       description: "The primary key for this table"
       data_tests:
       - unique
       - not_null
-  - name: RAW_DIM_CUSTOMERS
+  - name: DIM_CUSTOMERS
     columns:
     - name: customer_id
       description: "The primary key for this table"
       data_tests:
       - unique
       - not_null
-  - name: RAW_FACT_AGGREGATED_BOOKINGS
+  - name: FACT_ROOM_INVENTORY
     data_tests:
     - dbt_utils.unique_combination_of_columns:
         arguments:
           combination_of_columns:
           - property_id
-          - room_id
-          - check_in_date  
-
-  - name: RAW_FACT_BOOKINGS
+          - date_key
+  - name: FACT_RESERVATIONS
     columns:
     - name: booking_id
       description: "The primary key for this table"

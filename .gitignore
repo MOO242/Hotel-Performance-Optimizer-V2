@@ -217,3 +217,12 @@ __marimo__/
 artifacts/
 *.pkl
 *.csv
+
+dbt_env/
+eda_env/
+*.exe
+*.dll
+*.pyc
+.ipynb_checkpoints/
+
+Validation.md

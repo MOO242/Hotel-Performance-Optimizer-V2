@@ -11,5 +11,8 @@ FASTAPI
 Docker
 dbt-core 
 dbt-snowflake
+snowflake-connector-python[pandas]
+python-dotenv
+jupyter ipykernel
 
 

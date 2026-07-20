@@ -1,0 +1,18 @@
+SELECT
+TO_NUMBER(TO_CHAR(date,'YYYYMMDD')) as date_key,
+
+date,
+YEAR(date) as YEAR_NUMBER,
+MONTH(date) as MONTH_NUMBER,
+DAY(date) as DAY_NUMBER,
+
+DAY,
+MONTH,
+MONTH_NAME,
+QUARTER,
+WEEK,
+WEEKEND_FLAG,
+WEEKDAY_FLAG,
+
+
+FROM {{ref('stg_date')}}

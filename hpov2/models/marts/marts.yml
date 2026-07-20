@@ -1,0 +1,26 @@
+version: 2
+
+models:
+
+- name: fact_reservations
+  columns:
+  - name: property_id
+    data_tests:
+    - relationships:
+        arguments:
+            to: ref('dim_hotels')
+            field: property_id
+
+  - name: room_id
+    data_tests:
+    - relationships:
+        arguments:
+            to: ref('dim_rooms')
+            field: room_id
+
+  - name: customer_id
+    data_tests:
+    - relationships:
+        arguments:
+            to: ref('dim_customers')
+            field: customer_id
