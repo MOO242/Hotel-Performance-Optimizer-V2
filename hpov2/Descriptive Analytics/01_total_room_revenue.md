@@ -33,7 +33,7 @@ ORDER BY
     c.year_number;
 ```
 
-### **🧠 Business Insight**
+## Business Insight
 
 The hotel portfolio demonstrated consistent year-over-year revenue growth across the three-year period.
 
@@ -46,7 +46,7 @@ This positive trend suggests that a combination of demand recovery, pricing stra
 
 ---
 
-### **🎯 Recommendation**
+## Recommendation
 
 Conduct deeper analysis to identify the key drivers behind revenue growth by examining:
 
@@ -62,7 +62,7 @@ This analysis will help determine which areas contributed most to revenue growth
 
 ---
 
-### **💼 Business Impact**
+## Business Impact
 
 Understanding the drivers of revenue growth enables commercial leaders to:
 

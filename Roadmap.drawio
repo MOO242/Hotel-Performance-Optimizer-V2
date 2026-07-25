@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="z3ZOsaRucb_NuoI488nw" name="HPO V2">
-        <mxGraphModel dx="8520" dy="3013" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
+        <mxGraphModel dx="7240" dy="2293" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -261,7 +261,7 @@
                     <mxGeometry height="640" width="560" x="2250" y="612.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="FBym7ZGVtvefou1zBFUE-2" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffcd28;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;gradientColor=#ffa500;fontSize=36;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" value="&lt;span&gt;KPI Alerting &amp;amp; Monitoring&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="60" width="560" x="2210" y="550" as="geometry"/>
+                    <mxGeometry height="60" width="560" x="2245" y="545" as="geometry"/>
                 </mxCell>
                 <mxCell id="FBym7ZGVtvefou1zBFUE-3" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=36;fontColor=default;gradientColor=none;" value="&lt;font&gt;RevPAR Alert&lt;/font&gt;" vertex="1">
                     <mxGeometry height="80" width="365" x="2297.5" y="690" as="geometry"/>
@@ -326,115 +326,115 @@
                         <mxRectangle height="302" width="504" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="dvE-R4ju_FOTNP4tMJ4F-79" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#005700;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fillColor=#008a00;fontStyle=1" value="&#xa;" vertex="1">
-                    <mxGeometry height="1638" width="1984" x="706.35" y="1486" as="geometry"/>
+                <mxCell id="dvE-R4ju_FOTNP4tMJ4F-79" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#BD7000;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fillColor=#f0a30a;fontStyle=1;fontColor=#000000;" value="&#xa;" vertex="1">
+                    <mxGeometry height="1596" width="1984" x="696" y="1496" as="geometry"/>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-80" parent="dvE-R4ju_FOTNP4tMJ4F-79" style="shape=tableRow;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#005700;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#008a00;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="" vertex="1">
-                    <mxGeometry height="268" width="1984" y="30" as="geometry"/>
+                    <mxGeometry height="261" width="1984" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="dvE-R4ju_FOTNP4tMJ4F-81" parent="dvE-R4ju_FOTNP4tMJ4F-80" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;fontStyle=1" value="&lt;br&gt;&lt;span style=&quot;forced-color-adjust: none; color: rgb(63, 63, 63); scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Recommendations&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="268" width="662" as="geometry">
-                        <mxRectangle height="268" width="662" as="alternateBounds"/>
+                <mxCell id="dvE-R4ju_FOTNP4tMJ4F-81" parent="dvE-R4ju_FOTNP4tMJ4F-80" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=#ffcd28;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;gradientColor=#ffa500;" value="&lt;br&gt;&lt;span style=&quot;forced-color-adjust: none; color: rgb(63, 63, 63); scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Recommendations&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="261" width="662" as="geometry">
+                        <mxRectangle height="261" width="662" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="dvE-R4ju_FOTNP4tMJ4F-82" parent="dvE-R4ju_FOTNP4tMJ4F-80" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;fontStyle=1" value="&lt;br&gt;&lt;span style=&quot;forced-color-adjust: none; color: rgb(63, 63, 63); scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Business Impact&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="268" width="661" x="662" as="geometry">
-                        <mxRectangle height="268" width="661" as="alternateBounds"/>
+                <mxCell id="dvE-R4ju_FOTNP4tMJ4F-82" parent="dvE-R4ju_FOTNP4tMJ4F-80" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=#ffcd28;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;gradientColor=#ffa500;" value="&lt;br&gt;&lt;span style=&quot;forced-color-adjust: none; color: rgb(63, 63, 63); scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Business Impact&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="261" width="661" x="662" as="geometry">
+                        <mxRectangle height="261" width="661" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="dvE-R4ju_FOTNP4tMJ4F-83" parent="dvE-R4ju_FOTNP4tMJ4F-80" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;fontStyle=1" value="&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23);&quot;&gt;Bussniess Users&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="268" width="661" x="1323" as="geometry">
-                        <mxRectangle height="268" width="661" as="alternateBounds"/>
+                <mxCell id="dvE-R4ju_FOTNP4tMJ4F-83" parent="dvE-R4ju_FOTNP4tMJ4F-80" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=#ffcd28;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;gradientColor=#ffa500;" value="&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23);&quot;&gt;Bussniess Users&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="261" width="661" x="1323" as="geometry">
+                        <mxRectangle height="261" width="661" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-100" parent="dvE-R4ju_FOTNP4tMJ4F-79" style="shape=tableRow;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#005700;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#008a00;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" vertex="1">
-                    <mxGeometry height="268" width="1984" y="298" as="geometry"/>
+                    <mxGeometry height="261" width="1984" y="291" as="geometry"/>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-101" parent="dvE-R4ju_FOTNP4tMJ4F-100" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&lt;font&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Calibri; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Rebalance rates using RevPAR&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Calibri; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;alerts&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" vertex="1">
-                    <mxGeometry height="268" width="662" as="geometry">
-                        <mxRectangle height="268" width="662" as="alternateBounds"/>
+                    <mxGeometry height="261" width="662" as="geometry">
+                        <mxRectangle height="261" width="662" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-102" parent="dvE-R4ju_FOTNP4tMJ4F-100" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&#xa;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;RevPAR Growth&lt;/span&gt;&#xa;&#xa;" vertex="1">
-                    <mxGeometry height="268" width="661" x="662" as="geometry">
-                        <mxRectangle height="268" width="661" as="alternateBounds"/>
+                    <mxGeometry height="261" width="661" x="662" as="geometry">
+                        <mxRectangle height="261" width="661" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-103" parent="dvE-R4ju_FOTNP4tMJ4F-100" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&lt;span style=&quot;scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); color: rgb(63, 63, 63);&quot;&gt;Revenue&lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); color: rgb(63, 63, 63);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;Directors&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="268" width="661" x="1323" as="geometry">
-                        <mxRectangle height="268" width="661" as="alternateBounds"/>
+                    <mxGeometry height="261" width="661" x="1323" as="geometry">
+                        <mxRectangle height="261" width="661" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-96" parent="dvE-R4ju_FOTNP4tMJ4F-79" style="shape=tableRow;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#005700;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#008a00;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" vertex="1">
-                    <mxGeometry height="268" width="1984" y="566" as="geometry"/>
+                    <mxGeometry height="261" width="1984" y="552" as="geometry"/>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-97" parent="dvE-R4ju_FOTNP4tMJ4F-96" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Calibri; text-align: left;&quot;&gt;Reduce leakage flagged by&lt;/span&gt;&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); font-family: Calibri; text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Calibri; text-align: left;&quot;&gt;cancellation alerts&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="268" width="662" as="geometry">
-                        <mxRectangle height="268" width="662" as="alternateBounds"/>
+                    <mxGeometry height="261" width="662" as="geometry">
+                        <mxRectangle height="261" width="662" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-98" parent="dvE-R4ju_FOTNP4tMJ4F-96" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;ADR Improvement&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="268" width="661" x="662" as="geometry">
-                        <mxRectangle height="268" width="661" as="alternateBounds"/>
+                    <mxGeometry height="261" width="661" x="662" as="geometry">
+                        <mxRectangle height="261" width="661" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-99" parent="dvE-R4ju_FOTNP4tMJ4F-96" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&lt;span style=&quot;scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); color: rgb(63, 63, 63);&quot;&gt;Commercial &lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); color: rgb(63, 63, 63);&quot;&gt;Directors&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="268" width="661" x="1323" as="geometry">
-                        <mxRectangle height="268" width="661" as="alternateBounds"/>
+                    <mxGeometry height="261" width="661" x="1323" as="geometry">
+                        <mxRectangle height="261" width="661" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-92" parent="dvE-R4ju_FOTNP4tMJ4F-79" style="shape=tableRow;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#005700;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#008a00;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" vertex="1">
-                    <mxGeometry height="268" width="1984" y="834" as="geometry"/>
+                    <mxGeometry height="261" width="1984" y="813" as="geometry"/>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-93" parent="dvE-R4ju_FOTNP4tMJ4F-92" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&#xa;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Reallocate channel spend on&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(63, 63, 63); scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;occupancy dips&lt;/span&gt;&#xa;&#xa;" vertex="1">
-                    <mxGeometry height="268" width="662" as="geometry">
-                        <mxRectangle height="268" width="662" as="alternateBounds"/>
+                    <mxGeometry height="261" width="662" as="geometry">
+                        <mxRectangle height="261" width="662" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-94" parent="dvE-R4ju_FOTNP4tMJ4F-92" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&lt;br&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Occupancy Growth&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="268" width="661" x="662" as="geometry">
-                        <mxRectangle height="268" width="661" as="alternateBounds"/>
+                    <mxGeometry height="261" width="661" x="662" as="geometry">
+                        <mxRectangle height="261" width="661" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-95" parent="dvE-R4ju_FOTNP4tMJ4F-92" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&lt;span style=&quot;scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); color: rgb(63, 63, 63);&quot;&gt;Marketing &lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); color: rgb(63, 63, 63);&quot;&gt;Leaders&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="268" width="661" x="1323" as="geometry">
-                        <mxRectangle height="268" width="661" as="alternateBounds"/>
+                    <mxGeometry height="261" width="661" x="1323" as="geometry">
+                        <mxRectangle height="261" width="661" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-84" parent="dvE-R4ju_FOTNP4tMJ4F-79" style="shape=tableRow;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#005700;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#008a00;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="" vertex="1">
-                    <mxGeometry height="268" width="1984" y="1102" as="geometry"/>
+                    <mxGeometry height="261" width="1984" y="1074" as="geometry"/>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-85" parent="dvE-R4ju_FOTNP4tMJ4F-84" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&lt;font style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); text-align: left;&quot;&gt;Adjust ADR by segment using ADR&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23);&quot;&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(63, 63, 63); text-align: left;&quot;&gt;alerts.&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="268" width="662" as="geometry">
-                        <mxRectangle height="268" width="662" as="alternateBounds"/>
+                    <mxGeometry height="261" width="662" as="geometry">
+                        <mxRectangle height="261" width="662" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-86" parent="dvE-R4ju_FOTNP4tMJ4F-84" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;Forecast Accuracy&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="268" width="661" x="662" as="geometry">
-                        <mxRectangle height="268" width="661" as="alternateBounds"/>
+                    <mxGeometry height="261" width="661" x="662" as="geometry">
+                        <mxRectangle height="261" width="661" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-87" parent="dvE-R4ju_FOTNP4tMJ4F-84" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&lt;span style=&quot;scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); color: rgb(63, 63, 63);&quot;&gt;Revenue&lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); color: rgb(63, 63, 63);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;Directors&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="268" width="661" x="1323" as="geometry">
-                        <mxRectangle height="268" width="661" as="alternateBounds"/>
+                    <mxGeometry height="261" width="661" x="1323" as="geometry">
+                        <mxRectangle height="261" width="661" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-88" parent="dvE-R4ju_FOTNP4tMJ4F-79" style="shape=tableRow;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#005700;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#008a00;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="" vertex="1">
-                    <mxGeometry height="268" width="1984" y="1370" as="geometry"/>
+                    <mxGeometry height="261" width="1984" y="1335" as="geometry"/>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-89" parent="dvE-R4ju_FOTNP4tMJ4F-88" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&lt;span style=&quot;scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); text-align: left; color: rgb(30, 41, 59);&quot;&gt;Align staffing &amp;amp; budget to&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23);&quot;&gt;demand foreca&lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgba(139, 148, 158, 0.2) rgb(13, 17, 23); text-align: left; color: rgb(30, 41, 59);&quot;&gt;sts&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="268" width="662" as="geometry">
-                        <mxRectangle height="268" width="662" as="alternateBounds"/>
+                    <mxGeometry height="261" width="662" as="geometry">
+                        <mxRectangle height="261" width="662" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-90" parent="dvE-R4ju_FOTNP4tMJ4F-88" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;Revenue Lift&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="268" width="661" x="662" as="geometry">
-                        <mxRectangle height="268" width="661" as="alternateBounds"/>
+                    <mxGeometry height="261" width="661" x="662" as="geometry">
+                        <mxRectangle height="261" width="661" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="dvE-R4ju_FOTNP4tMJ4F-91" parent="dvE-R4ju_FOTNP4tMJ4F-88" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#005700;overflow=hidden;fillColor=#008a00;top=0;left=0;bottom=0;right=0;fontSize=48;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;curveFitting=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=1" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;General Managers&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="268" width="661" x="1323" as="geometry">
-                        <mxRectangle height="268" width="661" as="alternateBounds"/>
+                    <mxGeometry height="261" width="661" x="1323" as="geometry">
+                        <mxRectangle height="261" width="661" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
             </root>
