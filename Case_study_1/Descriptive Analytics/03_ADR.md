@@ -13,35 +13,40 @@ WITH REVENUE_BY_DAY AS (
     SELECT
         property_id,
         CHECK_IN_DATE_KEY,
-        SUM(TOTAL_REVENUE) AS total_revenue
-    from
+        SUM(ROOM_REVENUE) AS ROOM_REVENUE
+    FROM
         HPOV2_DB.ANALYTICS.FACT_RESERVATIONS
     WHERE
         booking_status = 'Checked Out'
-    group by
+    GROUP BY
         property_id,
         CHECK_IN_DATE_KEY
 )
 SELECT
     c.year_number,
-    sum(a.total_revenue) / sum(b.rooms_sold) as ADR
-from
-    REVENUE_BY_DAY as a
-    LEFT JOIN HPOV2_DB.ANALYTICS.FACT_ROOM_INVENTORY as b on a.property_id = b.property_id
+    SUM(a.ROOM_REVENUE) / SUM(b.rooms_sold) AS ADR,
+    ROUND(
+        (SUM(a.ROOM_REVENUE) / SUM(b.rooms_sold) - LAG(SUM(a.ROOM_REVENUE) / SUM(b.rooms_sold)) OVER (ORDER BY c.year_number))
+        / LAG(SUM(a.ROOM_REVENUE) / SUM(b.rooms_sold)) OVER (ORDER BY c.year_number) * 100,
+        2
+    ) AS YOY_GROWTH_PCT
+FROM
+    REVENUE_BY_DAY AS a
+    LEFT JOIN HPOV2_DB.ANALYTICS.FACT_ROOM_INVENTORY AS b ON a.property_id = b.property_id
     AND a.check_in_date_key = b.DATE_KEY
-    LEFT JOIN HPOV2_DB.ANALYTICS.DIM_DATE as c on a.check_in_date_key = c.date_key
-group by
+    LEFT JOIN HPOV2_DB.ANALYTICS.DIM_DATE AS c ON a.check_in_date_key = c.date_key
+GROUP BY
     c.year_number
-order by
+ORDER BY
     c.year_number;
 
 ```
 
 ## Result
 
-2023 = $ 25.27
-2024 = $ 25.98
-2025 = $ 26.17
+2023 = $ 23.69
+2024 = $ 24.37 YoY = 2.87%
+2025 = $ 24.52 YoY = 0.62%
 
 ---
 
@@ -49,9 +54,9 @@ order by
 
 ---
 
-ADR increased from $25.27 in 2023 to $26.17 in 2025, representing a 3.56% increase over the period.
-The steady growth in ADR indicates that the portfolio generated more revenue per occupied room over time. This suggests improved pricing effectiveness, stronger revenue management practices, a favorable room mix, or increased contribution from higher-value customer segments.
-Although the growth rate is moderate, the consistent upward trend demonstrates positive pricing performance across the portfolio and contributed to overall revenue growth.
+ADR increased from $23.69 in 2023 to $24.52 in 2025, representing a 3.50% increase over the period.
+
+This flags a need for deeper investigation into pricing strategy and demand (occupancy) to understand what's driving the flattening.
 
 ### **🎯 Recommendation**
 
@@ -59,12 +64,12 @@ Although the growth rate is moderate, the consistent upward trend demonstrates p
 
 Conduct deeper analysis to identify the primary drivers behind ADR growth by examining:
 
-Property-level ADR performance
-Market Segment ADR contribution
-Booking Channel profitability
-Room Type pricing trends
-Geographic market performance
-Seasonal pricing patterns
+- Property-level ADR performance
+- Market Segment ADR contribution
+- Booking Channel profitability
+- Room Type pricing trends
+- Geographic market performance
+- Seasonal pricing patterns
 
 Identify the properties, segments, and channels that delivered the highest ADR growth and replicate successful pricing and revenue management strategies across underperforming hotels where appropriate.
 
@@ -73,12 +78,13 @@ Identify the properties, segments, and channels that delivered the highest ADR g
 ---
 
 ADR is a critical revenue management KPI because it measures the average revenue earned from each occupied room.
+
 Improving ADR can:
 
-Increase room revenue without requiring additional occupancy
-Enhance overall hotel profitability
-Improve commercial performance
-Support more effective pricing decisions
-Strengthen revenue optimization strategies
+- Increase room revenue without requiring additional occupancy
+- Enhance overall hotel profitability
+- Improve commercial performance
+- Support more effective pricing decisions
+- Strengthen revenue optimization strategies
 
 When combined with stable or growing occupancy levels, higher ADR contributes directly to stronger revenue growth and improved financial performance.

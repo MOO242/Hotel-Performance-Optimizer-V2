@@ -11,15 +11,12 @@
 ```sql
 SELECT
     b.year_number,
-    (COUNT (booking_id))
+    (COUNT (booking_id)) AS total_bookings
 from
     HPOV2_DB.ANALYTICS.FACT_RESERVATIONS as a
     left join HPOV2_DB.ANALYTICS.DIM_DATE as b on b.date_key = a.check_in_date_key
 group by
     b.year_number;
-
-```
-
 ---
 
 ### 🧠 Business Insight
@@ -44,31 +41,28 @@ Changes in seasonality or travel patterns
 ### 🎯 Recommendation
 
 Perform a deeper portfolio analysis focusing on:
-Demand Metrics
 
-Occupancy %
-Rooms Sold
-Market Share
+**Demand Metrics**
+- Occupancy %
+- Rooms Sold
+- Market Share
 
-Revenue Metrics
+**Revenue Metrics**
+- ADR
+- RevPAR
+- Total Revenue
 
-ADR
-RevPAR
-Total Revenue
+**Commercial Performance**
+- Booking Channel Mix
+- Market Segment Contribution
+- Lead Time
+- Length of Stay (LOS)
 
-Commercial Performance
-
-Booking Channel Mix
-Market Segment Contribution
-Lead Time
-Length of Stay (LOS)
-
-Trend Analysis
-
-Monthly Booking Trends
-Seasonal Patterns
-Property Performance Comparison
-Year-over-Year Performance by Hotel
+**Trend Analysis**
+- Monthly Booking Trends
+- Seasonal Patterns
+- Property Performance Comparison
+- Year-over-Year Performance by Hotel
 
 The objective is to identify whether the booking decline is demand-related, pricing-related, inventory-related, or caused by commercial execution challenges.
 
@@ -76,12 +70,13 @@ The objective is to identify whether the booking decline is demand-related, pric
 
 Understanding the drivers behind the 2025 booking decline enables commercial leaders to:
 
-Protect future revenue performance.
-Improve demand generation strategies.
-Optimize sales and marketing investment.
-Refine pricing and revenue management decisions.
-Identify underperforming properties and segments.
-Increase occupancy and market share.
-Improve portfolio forecasting accuracy.
+- Protect future revenue performance
+- Improve demand generation strategies
+- Optimize sales and marketing investment
+- Refine pricing and revenue management decisions
+- Identify underperforming properties and segments
+- Increase occupancy and market share
+- Improve portfolio forecasting accuracy
 
-Even a modest recovery of the lost 5,719 bookings could generate significant incremental revenue and strengthen overall portfolio performance.
+Even a modest recovery of the lost 5,719 bookings could generate significant incremental revenue and strengthen overall portfolio performance.e.
+```
