@@ -1,4 +1,4 @@
-# Hotel Performance Optimizer V2
+# Hotel Performance Optimizer V2 (HPOv2) – Commercial Analytics & Revenue Optimization Platform
 
 ## Business Objectives
 
