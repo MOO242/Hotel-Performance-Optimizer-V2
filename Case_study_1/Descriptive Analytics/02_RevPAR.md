@@ -8,48 +8,50 @@
 
 ### **2. What was the RevPAR trend over time?**
 
+Snowflake engine
+
 ```sql
-WITH REVENUE_BY_DAY AS (
+WITH YEARLY_REVENUE AS (
     SELECT
-        property_id,
-        CHECK_IN_DATE_KEY,
-        SUM(ROOM_REVENUE) AS ROOM_REVENUE
-    from
-        HPOV2_DB.ANALYTICS.FACT_RESERVATIONS
+        d.year_number,
+        SUM(r.room_revenue) AS total_revenue
+    FROM
+        HPOV2_DB.ANALYTICS.FACT_RESERVATIONS r
+        LEFT JOIN HPOV2_DB.ANALYTICS.DIM_DATE d ON r.check_in_date_key = d.date_key
     WHERE
-        booking_status = 'Checked Out'
-    group by
-        property_id,
-        CHECK_IN_DATE_KEY
+        r.booking_status = 'Checked Out'
+    GROUP BY
+        d.year_number
+),
+
+YEARLY_ROOMS_AVAILABLE AS (
+    SELECT
+        d.year_number,
+        SUM(i.rooms_available) AS total_rooms_available
+    FROM
+        HPOV2_DB.ANALYTICS.FACT_ROOM_INVENTORY i
+        LEFT JOIN HPOV2_DB.ANALYTICS.DIM_DATE d ON i.date_key = d.date_key
+    GROUP BY
+        d.year_number
 )
 
-
 SELECT
-    c.year_number,
-    sum(a.ROOM_REVENUE) / sum(b.rooms_available) as RevPAR,
-    ROUND (
+    rev.year_number,
+    rev.total_revenue / inv.total_rooms_available AS RevPAR,
+    ROUND(
         (
-            sum(a.ROOM_REVENUE) / sum(b.rooms_available) - LAG(
-                sum(a.ROOM_REVENUE) / sum(b.rooms_available)) OVER(
-                    ORDER BY
-                        c.year_number
-                )
-            ) / LAG(
-                sum(a.ROOM_REVENUE) / sum(b.rooms_available))  OVER(
-                    ORDER BY
-                        c.year_number
-                ) * 100,
-                2
-            ) AS YOY_GROWTH_PCT
-        FROM
-                REVENUE_BY_DAY as a
-                LEFT JOIN HPOV2_DB.ANALYTICS.FACT_ROOM_INVENTORY as b on a.property_id = b.property_id
-                AND a.check_in_date_key = b.DATE_KEY
-                LEFT JOIN HPOV2_DB.ANALYTICS.DIM_DATE as c on a.check_in_date_key = c.date_key
-            group by
-                c.year_number
-            order by
-                c.year_number;
+            (rev.total_revenue / inv.total_rooms_available)
+            - LAG(rev.total_revenue / inv.total_rooms_available) OVER (ORDER BY rev.year_number)
+        )
+        / LAG(rev.total_revenue / inv.total_rooms_available) OVER (ORDER BY rev.year_number)
+        * 100,
+        2
+    ) AS YOY_GROWTH_PCT
+FROM
+    YEARLY_REVENUE rev
+    JOIN YEARLY_ROOMS_AVAILABLE inv ON rev.year_number = inv.year_number
+ORDER BY
+    rev.year_number;
 
 
 
@@ -57,9 +59,9 @@ SELECT
 
 ### **Result**
 
-2023 = $ 16.24
-2024 = $ 16.72 YoY = 3.01 %
-2025 = $ 16.84 YoY = 0.68 %
+2023 = $ 15.47
+2024 = $ 16.11 YoY = 4.17 %
+2025 = $ 16.22 YoY = 0.68 %
 
 ---
 
@@ -67,7 +69,7 @@ SELECT
 
 ---
 
-RevPAR increased from $16.24 in 2023 to $16.84 in 2025, growing 2.96% in 2024 before nearly stalling at 0.68% in 2025 — consistent with the deceleration seen in total room revenue.
+RevPAR increased from $15.468407 in 2023 to $16.222089 in 2025, growing 4.17% in 2024 before nearly stalling at 0.68% in 2025 — consistent with the deceleration seen in total room revenue.
 
 This flags a need for deeper investigation into pricing strategy (ADR) and demand (occupancy) to understand what's driving the flattening.
 
