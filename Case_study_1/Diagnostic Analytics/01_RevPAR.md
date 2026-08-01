@@ -95,7 +95,7 @@ _(Absolute dollar figures reflect a known data-source gap and should be read as 
 
 → Website: start with the website-vs-app rate divergence — that's the clearest, most fixable lead here. Then check pricing against the loyalty rate, and confirm the booking flow itself is functioning properly, not just mispriced.
 
-# Note on absolute dollar figures
+Note on absolute dollar figures
 
 Absolute dollar figures reflect a known data-source gap and should be read as directional, not as audited rate figures — see note at top.
 =======
