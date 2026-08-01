@@ -5,7 +5,7 @@
 ### Revenue Performance (Diagnostic)
 
 - Why did RevPAR increase or decrease?
-- Was revenue performance driven by ADR or Occupancy?
+- Was revenue performance    by ADR or Occupancy?
 - Which properties contributed most to revenue changes?
 - Which hotels contributed most to Revenue Growth %?
 - Which hotels experienced the largest revenue declines?

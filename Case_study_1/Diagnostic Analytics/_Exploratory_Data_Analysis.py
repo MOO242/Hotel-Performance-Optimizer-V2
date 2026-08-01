@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# coding: utf-8
 
 # ### Exploratory Data Analysis
 
@@ -16,6 +17,7 @@ import scipy
 import seaborn as sns
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
+
 
 # In[25]:
 
@@ -100,23 +102,23 @@ for table_name, left_key, right_key in join_plan:
 
 
 # # DATA OVERVIEW
-#
+# 
 
 # In[28]:
 
 
 # ---------- STEP 1: DATA OVERVIEW ----------
 
+def data_overview (path):
 
-def data_overview(path):
-
-    print(path.shape)
+    print (path.shape)
     print(path.dtypes)
     print(path.head())
-    print(path.describe(include=["object", "category"]))
+    print(path.describe())
+    print(path.select_dtypes(include=["object","category"]))
 
 
-data_overview(reservations_enriched)
+data_overview(reservations_enriched)    
 
 
 # In[29]:
@@ -124,20 +126,17 @@ data_overview(reservations_enriched)
 
 # ---------- STEP 2: DATA CLEANING ----------
 
-
 def data_cleaning(path):
     print(path.isnull().sum())
     print(path.isnull().sum() / len(path) * 100)
 
-
-# data_cleaning(reservations_enriched)
+# data_cleaning(reservations_enriched)    
 
 # Finding : I found the loyalty_tier has 199266, approx 40% of the data is missing. I Will deal with in part 3 predictive phase when creating a Model.
-
 
 def dupes(path):
 
     print(path.duplicated().sum())
 
+dupes(reservations_enriched)    
 
-dupes(reservations_enriched)
