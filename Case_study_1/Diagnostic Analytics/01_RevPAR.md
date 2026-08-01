@@ -95,10 +95,11 @@ _(Absolute dollar figures reflect a known data-source gap and should be read as 
 
 → Website: start with the website-vs-app rate divergence — that's the clearest, most fixable lead here. Then check pricing against the loyalty rate, and confirm the booking flow itself is functioning properly, not just mispriced.
 
-Note on absolute dollar figures
-
-Absolute dollar figures reflect a known data-source gap and should be read as directional, not as audited rate figures — see note at top.
 =======
 RevPAR growth decelerated from **4.17% in 2024** to **0.68% in 2025** because occupancy remained unchanged at **69%**, leaving ADR as the primary growth driver. Analysis of booking channel performance revealed minimal ADR improvement between 2024 and 2025, indicating pricing stagnation rather than demand weakness. Therefore, the slowdown in RevPAR was primarily driven by limited rate growth rather than a decline in occupancy.
 
+
+Note on absolute dollar figures
+
+Absolute dollar figures reflect a known data-source gap and should be read as directional, not as audited rate figures — see note at top.
 
