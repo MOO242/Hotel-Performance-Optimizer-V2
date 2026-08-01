@@ -83,7 +83,6 @@ Occupancy is stable, so ADR remains the portfolio's primary growth lever — and
 
 ## Executive Summary
 
-<<<<<<< HEAD
 RevPAR growth decelerated from **4.17% in 2024** to **0.68% in 2025**, driven by a slowdown in ADR growth (4.12% → 0.61%) while occupancy stayed effectively flat (~68.6%). The full channel breakdown shows this was not a portfolio-wide pricing plateau: five of eight channels grew ADR in 2025, led by Channel 1 (+2.10%). The deceleration is concentrated in three channels — Channel 6, Channel 7, and Channel 8 — with the Website vs. App divergence (Channel 8: -0.90%, Channel 5: +0.18%) standing out as the most specific and actionable lead. This points to a targeted rate-governance issue in a small set of channels rather than a demand or market-wide condition.
 
 _(Absolute dollar figures reflect a known data-source gap and should be read as directional, not as audited rate figures — see note at top.)_
@@ -102,4 +101,4 @@ Absolute dollar figures reflect a known data-source gap and should be read as di
 =======
 RevPAR growth decelerated from **4.17% in 2024** to **0.68% in 2025** because occupancy remained unchanged at **69%**, leaving ADR as the primary growth driver. Analysis of booking channel performance revealed minimal ADR improvement between 2024 and 2025, indicating pricing stagnation rather than demand weakness. Therefore, the slowdown in RevPAR was primarily driven by limited rate growth rather than a decline in occupancy.
 
->>>>>>> 5979b4e2c2f42697d546bfcb8d1abd7076f0327f
+
