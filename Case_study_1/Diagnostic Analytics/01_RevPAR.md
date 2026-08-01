@@ -68,3 +68,4 @@ Following a strong ADR increase in 2024, pricing growth plateaued in 2025 across
 ## Executive Summary
 
 RevPAR growth decelerated from **4.17% in 2024** to **0.68% in 2025** because occupancy remained unchanged at **69%**, leaving ADR as the primary growth driver. Analysis of booking channel performance revealed minimal ADR improvement between 2024 and 2025, indicating pricing stagnation rather than demand weakness. Therefore, the slowdown in RevPAR was primarily driven by limited rate growth rather than a decline in occupancy.
+
