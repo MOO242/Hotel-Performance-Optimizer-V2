@@ -23,13 +23,17 @@ WITH REVENUE_BY_DAY AS (
         CHECK_IN_DATE_KEY
 )
 SELECT
+
     c.year_number,
     SUM(a.ROOM_REVENUE) / SUM(b.rooms_sold) AS ADR,
+
     ROUND(
         (SUM(a.ROOM_REVENUE) / SUM(b.rooms_sold) - LAG(SUM(a.ROOM_REVENUE) / SUM(b.rooms_sold)) OVER (ORDER BY c.year_number))
         / LAG(SUM(a.ROOM_REVENUE) / SUM(b.rooms_sold)) OVER (ORDER BY c.year_number) * 100,
         2
     ) AS YOY_GROWTH_PCT
+
+
 FROM
     REVENUE_BY_DAY AS a
     LEFT JOIN HPOV2_DB.ANALYTICS.FACT_ROOM_INVENTORY AS b ON a.property_id = b.property_id

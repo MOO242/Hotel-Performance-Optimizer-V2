@@ -1,4 +1,4 @@
-# Why Did RevPAR Increase Only Slightly in 2025?
+# Why did RevPAR increase or decrease?
 
 > **Note on figures:** Absolute ADR/RevPAR dollar values below reflect a known gap between the reservations and room-inventory data sources (FACT_RESERVATIONS vs. FACT_ROOM_INVENTORY), which understates true dollar levels by a roughly constant factor across all three years. **Year-over-year % changes are reliable and are the basis for every conclusion in this report; the absolute dollar figures should not be read as real portfolio rates.**
 
@@ -98,8 +98,8 @@ _(Absolute dollar figures reflect a known data-source gap and should be read as 
 
 ### Note on absolute dollar figures
 
-Absolute dollar figures reflect a known data-source gap and should be read as directional, not as audited rate figures — see note at top.
-=======
+# Absolute dollar figures reflect a known data-source gap and should be read as directional, not as audited rate figures — see note at top.
+
 RevPAR growth decelerated from **4.17% in 2024** to **0.68% in 2025** because occupancy remained unchanged at **69%**, leaving ADR as the primary growth driver. Analysis of booking channel performance revealed minimal ADR improvement between 2024 and 2025, indicating pricing stagnation rather than demand weakness. Therefore, the slowdown in RevPAR was primarily driven by limited rate growth rather than a decline in occupancy.
 
->>>>>>> 5979b4e2c2f42697d546bfcb8d1abd7076f0327f
+> > > > > > > 5979b4e2c2f42697d546bfcb8d1abd7076f0327f

@@ -9,7 +9,6 @@ psycopg2-binary
 logging
 streamlit
 FASTAPI
-Docker
 dbt-core 
 dbt-snowflake
 snowflake-connector-python[pandas]
