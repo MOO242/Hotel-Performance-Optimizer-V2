@@ -87,7 +87,7 @@ RevPAR growth decelerated from **4.17% in 2024** to **0.68% in 2025**, driven by
 
 _(Absolute dollar figures reflect a known data-source gap and should be read as directional, not as audited rate figures — see note at top.)_
 
-## My recommendation:
+## My recommendation
 
 → Direct channel: audit for over-discounting. Is the property selling meaningfully below its stated rate? How often are reservations getting declined? Worth tracing back through reservations and central ops.
 
@@ -96,9 +96,10 @@ _(Absolute dollar figures reflect a known data-source gap and should be read as 
 → Website: start with the website-vs-app rate divergence — that's the clearest, most fixable lead here. Then check pricing against the loyalty rate, and confirm the booking flow itself is functioning properly, not just mispriced.
 
 <<<<<<< HEAD
+
 ### Note on absolute dollar figures
 
-# Absolute dollar figures reflect a known data-source gap and should be read as directional, not as audited rate figures — see note at top.
+# Absolute dollar figures reflect a known data-source gap and should be read as directional, not as audited rate figures — see note at top
 
 RevPAR growth decelerated from **4.17% in 2024** to **0.68% in 2025** because occupancy remained unchanged at **69%**, leaving ADR as the primary growth driver. Analysis of booking channel performance revealed minimal ADR improvement between 2024 and 2025, indicating pricing stagnation rather than demand weakness. Therefore, the slowdown in RevPAR was primarily driven by limited rate growth rather than a decline in occupancy.
 
@@ -107,9 +108,6 @@ RevPAR growth decelerated from **4.17% in 2024** to **0.68% in 2025** because oc
 =======
 RevPAR growth decelerated from **4.17% in 2024** to **0.68% in 2025** because occupancy remained unchanged at **69%**, leaving ADR as the primary growth driver. Analysis of booking channel performance revealed minimal ADR improvement between 2024 and 2025, indicating pricing stagnation rather than demand weakness. Therefore, the slowdown in RevPAR was primarily driven by limited rate growth rather than a decline in occupancy.
 
-
 Note on absolute dollar figures
 
 Absolute dollar figures reflect a known data-source gap and should be read as directional, not as audited rate figures — see note at top.
-
->>>>>>> 1f15af4447fcdc1ee1f22fd32567f180733b87db
